@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: YourBrother88/micbible   # GitHub repo name
+  branch: main
+
+media_folder: "public/images/uploads"   # where uploads go
+public_folder: "/images/uploads"
+
+collections:
+  - name: "microphones"
+    label: "Microphones"
+    folder: "public/data/microphones"
+    create: true
+    slug: "{{fields.model}}"
+    fields:
+      - { name: "model", label: "Model", widget: "string" }
+      - { name: "type", label: "Type", widget: "string" }
+      - { name: "sensitivity", label: "Sensitivity (dB)", widget: "string" }
+      - { name: "description", label: "Description", widget: "markdown" }
+
+  - name: "pages"
+    label: "General Pages"
+    folder: "public/data/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
