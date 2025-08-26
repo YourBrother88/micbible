@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "description": "A juicy red fruit",
+        "friends": [
+            2,
+            3
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "description": "A yellow fruit",
+        "friends": [
+            1
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Orange",
+        "description": "A sweet citrus fruit",
+        "friends": [
+            1
+        ]
+    },
+    {
+        
+    }
+]
