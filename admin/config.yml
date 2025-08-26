@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YourBrother88/micbible   # GitHub repo name
+  repo: yourbrother88/micbible   # GitHub repo name
   branch: main
 
 media_folder: "public/images/uploads"   # where uploads go
