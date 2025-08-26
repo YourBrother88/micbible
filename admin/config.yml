@@ -2,6 +2,7 @@ backend:
   name: github
   repo: yourbrother88/micbible   # GitHub repo name
   branch: main
+  auth_type: implicit
 
 media_folder: "public/images/uploads"   # where uploads go
 public_folder: "/images/uploads"
