@@ -64,6 +64,9 @@
 
 ### structured pages
 
-
+- Mics
 
 ### unstructured pages
+
+- Recording spaces
+- Instruments??
